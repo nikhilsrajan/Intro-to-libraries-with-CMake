@@ -25,4 +25,4 @@ if(FILES)
     install(FILES ${FILES} DESTINATION ${RELATIVE_PATH})
 endif()
 
-# GO TO TOP/foo/CMakeLists.txt, line 80
+# GO TO TOP/foo/CMakeLists.txt, line 79

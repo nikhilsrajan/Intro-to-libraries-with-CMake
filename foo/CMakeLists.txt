@@ -2,7 +2,6 @@
 # takes 2 parameters: 
 # - name of the library, 
 # - source code files required to compile that library
-
 add_library("${PROJECT_NAME}" "")
 
 # Come back to this later..
@@ -75,7 +74,7 @@ set_target_properties("${PROJECT_NAME}" PROPERTIES
     RELWITHDEBUGINFO_POSTFIX "${STATIC_POSTFIX}-rd"
 )
 
-# GO TO line 92
+# GO TO line 91
 
 # For DLL files to work we need to export it with DLL_EXPORT and
 # import it with DLL_IMPORT macros. CMake can generate these
