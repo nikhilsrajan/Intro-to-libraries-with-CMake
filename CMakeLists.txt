@@ -1,5 +1,3 @@
-# https://www.youtube.com/watch?v=5i6uLMP5VcY
-
 cmake_minimum_required(VERSION "3.0.0")
 
 # Tieing more loose ends..

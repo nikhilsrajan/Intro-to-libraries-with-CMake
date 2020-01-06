@@ -26,7 +26,7 @@ add_library(Foo::Foo ALIAS "${PROJECT_NAME}")
 # generator expression -- $<KEY:VALUE>
 target_include_directories("${PROJECT_NAME}" PUBLIC
     "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
-    "$<BUILD_INTERFACE:${CURRENT_BINARY_DIR}>" # this will be understood later..
+    "$<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>" # this will be understood later..
     "$<INSTALL_INTERFACE:include>"  # --> ${CMAKE_INSTALL_PREFIX}/include
 )
 # CMAKE_CURRENT_SOURCE_DIR -- the directory this CMakeLists.txt
