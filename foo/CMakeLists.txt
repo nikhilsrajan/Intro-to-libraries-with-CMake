@@ -94,3 +94,12 @@ add_subdirectory("include")
 add_subdirectory("src")
 
 # GO TO TOP/include/CMakeLists.txt
+
+
+# Appendix:
+# ---------
+# 1. CMAKE_INSTALL_PREFIX       --> C:/Program Files (x86) in windows
+#                                   /usr/local in Linux
+# 2. CMAKE_CURRENT_BINARY_DIR   --> Build directory
+# 3. CMAKE_CURRENT_SOURCE_DIR   --> THIS directory
+# 4. CMAKE_SOURCE_DIR           --> TOP directory
