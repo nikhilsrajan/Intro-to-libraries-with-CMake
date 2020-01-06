@@ -84,7 +84,7 @@ generate_export_header("${PROJECT_NAME}")
 # ^-- macro will create a file called foo_export.h
 # foo_export.h 's path is ${CURRENT_BINARY_DIR}/foo_export.h
 # we would install this export file..
-install(FILES "${CURRENT_BINARY_DIR}/foo_export.h" DESTINATION "include")
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/foo_export.h" DESTINATION "include")
 # since our export file is created inside ${CURRENT_BINARY_DIR}
 # it needs to be included in the list of include directories
 
