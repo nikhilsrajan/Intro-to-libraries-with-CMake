@@ -63,7 +63,7 @@ if(NOT BUILD_SHARED_LIBS)
     )
 
     # Next we ties a few loose ends..
-    # - adding an alias for our target
+    # - adding an alias for our target, line 8
 
 endif()
 
